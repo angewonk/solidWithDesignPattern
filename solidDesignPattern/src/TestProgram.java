@@ -4,8 +4,8 @@ public class TestProgram {
     public static void main(String[] args) {
 
         Map<String, ResourceBorrower> resourceTypes = new HashMap<>();
-        resourceTypes.put("manga", new ResourceType());
-        resourceTypes.put("dictionary", new ResourceType());
+        resourceTypes.put("book", new ResourceType());
+        resourceTypes.put("journal", new ResourceType());
         resourceTypes.put("comic", new ResourceType());
         resourceTypes.put("biography", new ResourceType());
 
@@ -13,8 +13,8 @@ public class TestProgram {
         Student stud2 = new Student("Ramona Flowers");
         Student stud3 = new Student("Liza Soberano");
 
-        Resources manga = new Resources("manga", "Jujutsu Kaisen");
-        Resources dictionary = new Resources("dictionary", "Merriam-Webster");
+        Resources manga = new Resources("book", "Jujutsu Kaisen");
+        Resources dictionary = new Resources("journal", "The Diary of a Young Girl by Anne Frank.");
         Resources comic = new Resources("comic", "The Amazing Spiderman");
         Resources biography = new Resources("biography", "Biography of Jose Rizal");
 
